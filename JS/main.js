@@ -17,7 +17,7 @@ $(document).ready(function(){
         var scroll = new SmoothScroll('a[href*="#"]', {
             speed: 500
         });
-        jQuery(".fittext").fitText();
+        jQuery("#fittext").fitText();
       
     
 })

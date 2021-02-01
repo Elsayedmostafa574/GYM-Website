@@ -15,6 +15,7 @@ color: tomato !important;
     
     position: relative;
     
+    
 }
 #video{
     min-width: 100%;
@@ -43,18 +44,30 @@ color: tomato !important;
     padding: 15px 40px 15px 5px;
 }
 .para{
-    position: absolute;
-    top: 35%;
-    left: 25%;
     text-align: center;
-    color: white;
-    font-weight:bolder;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999999999;
 }
 .para p{
-    font-size: 20px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
 .para h1{
-    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 84px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
 }
 .para h1 span{
     color: tomato;
